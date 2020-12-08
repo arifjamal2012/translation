@@ -4,8 +4,34 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Language Translation</title>
+		<link href="style.css" rel="stylesheet" />
 	</head>
 	<body>
-		<h1>Hello</h1>
+		<div class="header">
+			<h1>Pirate Speak translator</h1>
+		</div>
+		<div>
+			<textarea
+				placeholder="Enter your text here in english and we will convert it to other fun language...."
+				id="text-area"
+			></textarea>
+			<button id="btn-trans">Translate</button>
+			<div class="output-txt">
+				<h3>Output will be displayed here <span id="hand">👉🏼</span></h3>
+			</div>
+			<div id="output"></div>
+		</div>
+		<footer>
+			<section class="footer">
+				<h1>About</h1>
+				<p class="foot-text">
+					So you might have seen pirates of caribbean series.Lets play some fun
+					game by translating the english text in the caribbean language. Type
+					anything in english and see the out in the right side box :)
+				</p>
+			</section>
+		</footer>
+
+		<script src="app.js"></script>
 	</body>
 </html>

@@ -1,0 +1,44 @@
+body {
+	background-image: url('pirate.jpg');
+	background-size: cover;
+}
+.header {
+	color: white;
+	text-align: center;
+}
+#text-area {
+	border: 2px solid (153, 147, 147, 0.616);
+	display: block;
+	height: 30vh;
+	width: 350px;
+	margin: 25px;
+	margin-left: 10px;
+}
+
+#btn-trans {
+	margin-left: 150px;
+	cursor: pointer;
+}
+.output-txt {
+	margin-left: 180px;
+	color: white;
+}
+#hand {
+	font-size: 30px;
+}
+#output {
+	border: 2px solid rgba(153, 147, 147, 0.616);
+	background-color: whitesmoke;
+	height: 30vh;
+	width: 350px;
+	margin-left: 880px;
+}
+.footer {
+	color: white;
+	text-align: center;
+	margin-top: 80px;
+}
+.foot-text {
+	max-width: 400px;
+	margin-left: 420px;
+}
