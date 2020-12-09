@@ -2,7 +2,7 @@ var btnTrans = document.querySelector('#btn-trans');
 var textInput = document.querySelector('#text-area');
 var outputTxt = document.querySelector('#output');
 
-var serverUrl = 'https://api.funtranslations.com/translate/hodor.json';
+var serverUrl = 'https://api.funtranslations.com/translate/pirate.json';
 
 function txtTranslate(input) {
 	return serverUrl + '?' + 'text=' + input;
